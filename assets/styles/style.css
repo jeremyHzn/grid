@@ -1,4 +1,142 @@
 body{
-    background-color: #fafafa;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    background-color: #3b3b3b;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+}
+#center{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+#tab{
+    border: 5px solid black;
+    background-color: black;
+    display: grid;
+    grid-gap: 4px;
+    margin: 10px auto;
+    width: 439px;
+    grid-template-columns: repeat(18, 20px);
+    grid-template-rows: 20px 50px 70px 30px 45px 35px 20px;
+    justify-content: center;
+    grid-template-areas: 
+        "blanc1 blanc2 blanc2 blanc2 blanc2 blanc2 blanc2 blanc2 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc3 blanc4 jaune1"
+        "blanc1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 bleu1 blanc5 blanc5 blanc5 bleu2 bleu2 bleu2 bleu2 bleu2 blanc4 jaune1"
+        ". blanc6 blanc6 . blanc7 blanc7 blanc7 blanc8 jaune2 jaune2 jaune2 rouge1 rouge1 rouge1 rouge1 rouge2 blanc4 jaune1"
+        ". blanc6 blanc6 . jaune3 rouge3 rouge3 rouge3 bleu3 bleu3 bleu3 blanc9 blanc9 blanc9 blanc9 blanc10 . ."
+        "blanc11 rouge4 rouge4 . jaune4 blanc12 blanc12 blanc12 blanc12 blanc12 blanc13 blanc13 blanc13 bleu4 bleu4 jaune5 blanc14 blanc14"
+        "blanc11 rouge4 rouge4 . jaune4 rouge5 rouge5 rouge5  . . . . . blanc15 blanc15 blanc15 blanc15 blanc15"
+        "blanc16 blanc16 blanc16 blanc16 jaune4 rouge5 rouge5 rouge5 . . . . . blanc15 blanc15 blanc15 blanc15 blanc15";
+}
+
+.blanc{
+    background-color: white;
+}
+.bleu{
+    background-color: blue;
+}
+.jaune{
+    background-color: yellow;
+}
+.rouge{
+    background-color: red;
+}
+
+#blanc1{
+    grid-area: blanc1;
+}
+#blanc2{
+    grid-area: blanc2;
+}
+#blanc3 {
+    grid-area: blanc3;
+}
+#blanc4 {
+    grid-area: blanc4;
+}
+#blanc5 {
+    grid-area: blanc5;
+}
+#blanc6 {
+    grid-area: blanc6;
+}
+#blanc7 {
+    grid-area: blanc7;
+}
+#blanc8 {
+    grid-area: blanc8;
+}
+#blanc9 {
+    grid-area: blanc9;
+}
+#blanc10 {
+    grid-area: blanc10;
+}
+#blanc11 {
+    grid-area: blanc11;
+}
+#blanc12 {
+    grid-area: blanc12;
+}
+#blanc13 {
+    grid-area: blanc13;
+}
+#blanc14 {
+    grid-area: blanc14;
+}
+#blanc15 {
+    grid-area: blanc15;
+}
+#blanc16 {
+    grid-area: blanc16;
+}
+#bleu1{
+    grid-area: bleu1;
+}
+#bleu2{
+    grid-area: bleu2;
+}
+#bleu3{
+    grid-area: bleu3;
+}
+#bleu4{
+    grid-area: bleu4;
+}
+#bleu5{
+    grid-area: bleu5;
+}
+#jaune1{
+    grid-area: jaune1;
+}
+#jaune2{
+    grid-area: jaune2;
+}
+#jaune3{
+    grid-area: jaune3;
+}
+#jaune4{
+    grid-area: jaune4;
+}
+#jaune5{
+    grid-area: jaune5;
+}
+#rouge1{
+    grid-area: rouge1;
+}
+#rouge2{
+    grid-area: rouge2;
+}
+#rouge3{
+    grid-area: rouge3;
+}
+#rouge4{
+    grid-area: rouge4;
+}
+#rouge5{
+    grid-area: rouge5;
 }
