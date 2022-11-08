@@ -8,19 +8,19 @@ h1{
     color: white;
     text-transform: uppercase;
 }
+
 #center{
     display: grid;
     justify-content: center;
     align-items: center;
     height: 500px;
 }
+
 #tab{
-    border: 5px solid black;
-    background-color: black;
     display: grid;
+    background-color: black;
+    border: 5px solid black;
     grid-gap: 4px;
-    margin: 10px auto;
-    width: 439px;
     grid-template-columns: repeat(18, 20px);
     grid-template-rows: 20px 50px 70px 30px 45px 35px 20px;
     justify-content: center;
